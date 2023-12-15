@@ -1,0 +1,89 @@
+ html {
+     font-size: 16px;
+ }
+
+* {
+     box-sizing: border-box;
+ }
+
+
+ body {
+     background-color:bisque;
+ }
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    margin-bottom: -10px;
+}
+.play-ui {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 40px;
+}
+.row {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+}
+
+
+button {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: calc( 100% / 3);
+    cursor: pointer;
+    color: black;
+}
+/* 3*3 Grid */
+
+/* Reset Button */
+#but {
+    display: block;
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-family: Verdana,
+    Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+#print {
+    font-family: Verdana,
+    Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+#main {
+    text-align: center;
+}
+
+
+.print-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#print, #warner {
+    font-family: Verdana,Geneva,
+    Tahoma, sans-serif;
+    color: dodgerblue;
+}
